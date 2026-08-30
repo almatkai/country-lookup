@@ -1,0 +1,97 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "country-lookup",
+  "title": "Country Lookup",
+  "description": "Search and explore detailed data for every country: flags, capitals, languages, currencies, regions and more, powered by the REST Countries API.",
+  "icon": "extension_iconv1.png",
+  "license": "MIT",
+  "author": "almatkai",
+  "contributors": [
+    "yusifaliyevpro",
+    "j3lte",
+    "xmok"
+  ],
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "categories": [
+    "Data",
+    "Web"
+  ],
+  "preferences": [
+    {
+      "name": "apiKey",
+      "title": "API Key",
+      "description": "Your REST Countries API key. Get one for free at https://restcountries.com/sign-up.",
+      "type": "password",
+      "required": true
+    },
+    {
+      "name": "entriesWithoutIsoCode",
+      "title": "Show Countries",
+      "description": "REST Countries lists a few partially-recognized territories that have no ISO 3166-1 code (for example Abkhazia, South Ossetia and Northern Cyprus). Choose whether to include them. This is based purely on the data source's ISO codes and is not a political stance by this extension or its author.",
+      "type": "dropdown",
+      "required": true,
+      "data": [
+        {
+          "title": "Show All",
+          "value": "show"
+        },
+        {
+          "title": "Hide Disputed Territories",
+          "value": "hide"
+        }
+      ]
+    }
+  ],
+  "commands": [
+    {
+      "mode": "view",
+      "name": "index",
+      "title": "Search Countries",
+      "subtitle": "Country Lookup",
+      "description": "Search countries by name, capital, or language and browse rich details like flags, currencies, and regions.",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ]
+    }
+  ],
+  "scripts": {
+    "build": "ray build -e dist",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test test/*.test.ts"
+  },
+  "dependencies": {
+    "@raycast/api": "^1.104.1",
+    "@raycast/utils": "^2.2.7",
+    "@yusifaliyevpro/countries": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tsx": "^4.22.4",
+    "typescript": "^5.9.3"
+  },
+  "allowScripts": {
+    "esbuild@0.27.7": true
+  },
+  "id": "com.tezbar.country-lookup",
+  "version": "0.1.0",
+  "tezbar": {
+    "schemaVersion": 1,
+    "platforms": [
+      "macos",
+      "windows"
+    ],
+    "linuxStatus": "coming-soon",
+    "repository": "https://github.com/almatkai/country-lookup",
+    "upstream": {
+      "repository": "https://github.com/raycast/extensions",
+      "path": "extensions/country-lookup",
+      "commit": "6734d85992290066fd31a7f5bee3cca3d3545a1a"
+    }
+  }
+}
