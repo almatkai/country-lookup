@@ -3,7 +3,7 @@
   "name": "country-lookup",
   "title": "Country Lookup",
   "description": "Search and explore detailed data for every country: flags, capitals, languages, currencies, regions and more, powered by the REST Countries API.",
-  "icon": "extension_iconv1.png",
+  "icon": "assets/extension_iconv1.png",
   "license": "MIT",
   "author": "almatkai",
   "contributors": [
