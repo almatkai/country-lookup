@@ -1,0 +1,27 @@
+{
+  "source": "3db7a9e69eadc4d0ba53895ef686305329828e27",
+  "sdk": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+  "host": "ea100cee3f69711de12485ba061950c5fc65258f",
+  "rustTests": {
+    "stable": 21,
+    "msrv1.85": 21,
+    "clippyAllTargetsStrict": "passed on both",
+    "fmt": "passed on both"
+  },
+  "sourceOracleCases": 21,
+  "protocol": "real production OS pipes passed including extracted/isolated binary; discarded handler success/search/fetch reconciliation covered by SDK-staging regression; no product API/OS producer calls",
+  "rendererSchema": "actual immutable source + explicit seams passed",
+  "developmentZipSha256": "b47798c92ba05847677461787c9c9cb2f3898fece89f4569edd1d7b8c8b1dc82",
+  "executableSha256": "8167a33f3da9894f3b026b0e487901ea892233a9da17f753b80acc2e355dd7c1",
+  "iconSha256": "f5e19ace390331fd21d581a1a512719462c1eea4635164452ca63ae8b855f55f",
+  "platforms": {
+    "macOSArm64NativeBuildAndPipes": "passed",
+    "macOSGUIAndLiveAPI": "not-run",
+    "windowsGNUCheck": "blocked: x86_64-w64-mingw32-gcc absent; no install",
+    "windowsMSVCNative": "not-run",
+    "linux": "not-run"
+  },
+  "externalActions": "No commit/staging/push/PR/release/catalog/install/deletion/subdelegation. Host/profile/sibling SDK/ledger unchanged.",
+  "xerj": "final frozen schema mismatch; incomplete v2 index; no prefix bypass or restart",
+  "licenseNote": "All locked Rust grants/notices copied; QA-only utils publisher MIT declaration retained, missing upstream LICENSE file explicitly documented."
+}

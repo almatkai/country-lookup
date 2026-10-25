@@ -1,0 +1,18 @@
+
+added 92 packages in 638ms
+npm notice run country-lookup@0.1.0 test
+npm notice run node --import tsx --test test/*.test.ts
+✔ package.json declares Windows+macOS and Tezbar metadata (1.225333ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 59.533792
+npm notice run country-lookup@0.1.0 typecheck
+npm notice run tsc --noEmit
+npm warn deprecated whatwg-encoding@3.1.1: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+
+added 50 packages in 501ms

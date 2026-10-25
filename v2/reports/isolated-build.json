@@ -1,0 +1,21 @@
+{
+  "sdk": "https://github.com/almatkai/tezbar-extension-sdk-rust.git#e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+  "freshCargoHome": true,
+  "hostOrSiblingDependency": false,
+  "binaryPath": "qa/isolated/run-k4xsq9mv/target/release/country-lookup-native",
+  "sourceInputs": {
+    ".cargo/config.toml": "aabd2af12e26033cb8de9b63841b54574718406e4479b47e41bc0d92fc6f14e0",
+    "Cargo.lock": "c1a9a09a02c8456ea8aea40afac2410a48a53ea41cc17005b8ec5a7346ca1302",
+    "Cargo.toml": "979e22e1e3661b0a2dd703aed0fcc49a7327964d2849e9a6626aa8cbb2d99907",
+    "src/app.rs": "4a147d3f956224f4a7d15720357ff60f010e9847b0f91e2021b2398d3a142d70",
+    "src/data.rs": "ee47bf1c9a432b88ab03ab76b13733e40c26131626d4d5370fd4f6ce3d1ced56",
+    "src/format.rs": "3f30d4cfcc5aab44acc9a0b4a91da1cd9b874d802da2f71b9245ac4cf704092b",
+    "src/js.rs": "58b6ea470323d23f4598283b386a1ae775b2d63c14dc0ecabafc4dded290fadb",
+    "src/lib.rs": "58ce2519eb61aa0fb77c439e538ca1a9dfd28b8d4a686127aad28e2120fe88f2",
+    "src/main.rs": "5fd6faa4b9907893911e5c10dd4830fe8800a17bbc1270e9eceea73c63a85ce8",
+    "src/store.rs": "a988aeea2ad4cd40ed47d5bd0578ffe5844de008d50338bf4a9e6f91e44f6e33"
+  },
+  "binarySha256": "8167a33f3da9894f3b026b0e487901ea892233a9da17f753b80acc2e355dd7c1",
+  "bytes": 3003872,
+  "protocolSmoke": "passed"
+}

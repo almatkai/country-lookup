@@ -1,0 +1,12 @@
+Production JSONL OS-pipe tests passed: hello/init/open/actions/search/cancel/late ACK/exact retry/dispose/shutdown/EOF/framing/restart/140 canceled opens. No product API or OS effect executed.
+{
+  "kind": "development-only; artifacts empty, no install/catalog/release pins",
+  "target": "aarch64-apple-darwin",
+  "nativeHeader": "Mach-O 64-bit ARM64",
+  "zipBytes": 4880565,
+  "zipSha256": "b47798c92ba05847677461787c9c9cb2f3898fece89f4569edd1d7b8c8b1dc82",
+  "executableBytes": 3003872,
+  "executableSha256": "8167a33f3da9894f3b026b0e487901ea892233a9da17f753b80acc2e355dd7c1",
+  "identicalRepeatZip": true,
+  "extractedProtocolSmoke": "passed; synthetic private cache only, no product API or real OS effects"
+}

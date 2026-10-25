@@ -1,0 +1,3495 @@
+{
+  "source": "3db7a9e69eadc4d0ba53895ef686305329828e27",
+  "library": "@yusifaliyevpro/countries@5.2.1",
+  "cases": [
+    {
+      "input": "{\"names\":{\"common\":\"Example Å国\",\"official\":\"Republic of Example\",\"alternates\":[\"Exampleland\",\"Exämple\"],\"native\":{\"eng\":{\"common\":\"Example\"},\"other\":{\"common\":\"例国\"},\"repeat\":{\"common\":\"Example\"}}},\"codes\":{\"alpha_2\":\"EX\",\"alpha_3\":\" EXA \",\"ccn3\":\"009\",\"cioc\":\"EXM\",\"fifa\":\"EXF\"},\"flag\":{\"emoji\":\"🇰🇿\",\"url_png\":\"https://flagcdn.com/w320/kz.png\",\"description\":\"A flag\"},\"capitals\":[{\"name\":\"Capital\"},{\"name\":\"\"}],\"region\":\"Asia\",\"subregion\":\"Central Asia\",\"continents\":[\"Asia\",\"Europe\"],\"population\":1234567.8916,\"area\":{\"kilometers\":15.5},\"landlocked\":false,\"demonyms\":{\"eng\":{\"m\":\"Examplean\",\"f\":\"Examplean\"}},\"units\":{\"measurement_system\":\"metric\",\"temperature_scale\":\"celsius\"},\"government_type\":\"Republic\",\"languages\":[{\"name\":\"Example language\"},{\"name\":\"\"}],\"currencies\":[{\"name\":\"Example coin\",\"symbol\":\"¤\"},{\"name\":\"\",\"symbol\":\"\"}],\"calling_codes\":[\"+999\",\"+998\"],\"date\":{\"start_of_week\":\"monday\",\"academic_year_start\":{\"day\":1,\"month\":9},\"fiscal_year_start\":{\"government\":{\"day\":0,\"month\":1}}},\"cars\":{\"driving_side\":\"right\",\"signs\":[\"EX\",\"\"]},\"number_format\":{\"thousands_separator\":\",\",\"decimal_separator\":\".\"},\"tlds\":[\".example\"],\"timezones\":[\"UTC+05:00\"],\"borders\":[\"EXB\",\"MISSING\",\" EXA \"],\"memberships\":{\"un\":true,\"eu\":false,\"nato\":true,\"african_union\":true,\"arab_league\":true,\"unknown\":true},\"links\":{\"official\":\"https://www.gov.kz/\",\"wikipedia\":\"https://en.wikipedia.org/wiki/Kazakhstan\",\"google_maps\":\"https://maps.google.com/?q=Kazakhstan\",\"open_street_maps\":\"https://www.openstreetmap.org/relation/214665\"},\"unknown\":{\"2\":\"two\",\"10\":\"ten\",\"z\":\"😀\",\"negative\":0,\"fraction\":1e-7}}",
+      "text": "🇰🇿 Example Å国\n\nOfficial Name: Republic of Example\nNative Name: Example, 例国\nCountry Code: EX\nAlpha-3 Code:  EXA \nNumeric Code: 009\nIOC Code: EXM\nFIFA Code: EXF\nCapital: Capital\nRegion: Asia · Central Asia\nContinent: Asia, Europe\nPopulation: 1,234,567.892\nArea: 16 km²\nLandlocked: No\nInhabitants: Examplean\nUnits: Metric · celsius\nGovernment: Republic\nLanguages: Example language\nCurrencies: Example coin (¤), \nCalling Code: +999, +998\nStart of Week: monday\nAcademic Year Start: 1 September\nFiscal Year Start: January\nDriving Side: right\nVehicle Signs: EX\nNumber Format: 1,234,567.89\nTop-Level Domain: .example\nTimezones: UTC+05:00\nBorders: Neighbor, MISSING, Untrimmed Border\nMemberships: UN, NATO, African Union, Arab League\nOfficial Website: https://www.gov.kz/\nWikipedia: https://en.wikipedia.org/wiki/Kazakhstan\nGoogle Maps: https://maps.google.com/?q=Kazakhstan",
+      "raw": "{\n  \"names\": {\n    \"common\": \"Example Å国\",\n    \"official\": \"Republic of Example\",\n    \"alternates\": [\n      \"Exampleland\",\n      \"Exämple\"\n    ],\n    \"native\": {\n      \"eng\": {\n        \"common\": \"Example\"\n      },\n      \"other\": {\n        \"common\": \"例国\"\n      },\n      \"repeat\": {\n        \"common\": \"Example\"\n      }\n    }\n  },\n  \"codes\": {\n    \"alpha_2\": \"EX\",\n    \"alpha_3\": \" EXA \",\n    \"ccn3\": \"009\",\n    \"cioc\": \"EXM\",\n    \"fifa\": \"EXF\"\n  },\n  \"flag\": {\n    \"emoji\": \"🇰🇿\",\n    \"url_png\": \"https://flagcdn.com/w320/kz.png\",\n    \"description\": \"A flag\"\n  },\n  \"capitals\": [\n    {\n      \"name\": \"Capital\"\n    },\n    {\n      \"name\": \"\"\n    }\n  ],\n  \"region\": \"Asia\",\n  \"subregion\": \"Central Asia\",\n  \"continents\": [\n    \"Asia\",\n    \"Europe\"\n  ],\n  \"population\": 1234567.8916,\n  \"area\": {\n    \"kilometers\": 15.5\n  },\n  \"landlocked\": false,\n  \"demonyms\": {\n    \"eng\": {\n      \"m\": \"Examplean\",\n      \"f\": \"Examplean\"\n    }\n  },\n  \"units\": {\n    \"measurement_system\": \"metric\",\n    \"temperature_scale\": \"celsius\"\n  },\n  \"government_type\": \"Republic\",\n  \"languages\": [\n    {\n      \"name\": \"Example language\"\n    },\n    {\n      \"name\": \"\"\n    }\n  ],\n  \"currencies\": [\n    {\n      \"name\": \"Example coin\",\n      \"symbol\": \"¤\"\n    },\n    {\n      \"name\": \"\",\n      \"symbol\": \"\"\n    }\n  ],\n  \"calling_codes\": [\n    \"+999\",\n    \"+998\"\n  ],\n  \"date\": {\n    \"start_of_week\": \"monday\",\n    \"academic_year_start\": {\n      \"day\": 1,\n      \"month\": 9\n    },\n    \"fiscal_year_start\": {\n      \"government\": {\n        \"day\": 0,\n        \"month\": 1\n      }\n    }\n  },\n  \"cars\": {\n    \"driving_side\": \"right\",\n    \"signs\": [\n      \"EX\",\n      \"\"\n    ]\n  },\n  \"number_format\": {\n    \"thousands_separator\": \",\",\n    \"decimal_separator\": \".\"\n  },\n  \"tlds\": [\n    \".example\"\n  ],\n  \"timezones\": [\n    \"UTC+05:00\"\n  ],\n  \"borders\": [\n    \"EXB\",\n    \"MISSING\",\n    \" EXA \"\n  ],\n  \"memberships\": {\n    \"un\": true,\n    \"eu\": false,\n    \"nato\": true,\n    \"african_union\": true,\n    \"arab_league\": true,\n    \"unknown\": true\n  },\n  \"links\": {\n    \"official\": \"https://www.gov.kz/\",\n    \"wikipedia\": \"https://en.wikipedia.org/wiki/Kazakhstan\",\n    \"google_maps\": \"https://maps.google.com/?q=Kazakhstan\",\n    \"open_street_maps\": \"https://www.openstreetmap.org/relation/214665\"\n  },\n  \"unknown\": {\n    \"2\": \"two\",\n    \"10\": \"ten\",\n    \"z\": \"😀\",\n    \"negative\": 0,\n    \"fraction\": 1e-7\n  }\n}",
+      "common": "Example Å国",
+      "keywords": [
+        "Republic of Example",
+        "Exampleland",
+        "Exämple",
+        "EX",
+        " EXA ",
+        "009",
+        "Asia",
+        "Central Asia",
+        "Examplean",
+        "Asia",
+        "Europe",
+        "Capital",
+        "Example language",
+        "Example coin",
+        ".example"
+      ],
+      "metadata": [
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Official Name",
+          "text": "Republic of Example"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Native Name",
+          "text": "Example, 例国"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Country Code",
+          "text": "EX"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Alpha-3 Code",
+          "text": " EXA "
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Numeric Code",
+          "text": "009"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "IOC Code",
+          "text": "EXM"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "FIFA Code",
+          "text": "EXF"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Capital",
+          "text": "Capital"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Region",
+          "text": "Asia · Central Asia"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Continent",
+          "text": "Asia, Europe"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Population",
+          "text": "1,234,567.892"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Area",
+          "text": "16 km²"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Landlocked",
+          "text": "No"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Inhabitants",
+          "text": "Examplean"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Units",
+          "text": "Metric · celsius"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Government",
+          "text": "Republic"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.TagList",
+          "title": "Languages",
+          "items": [
+            "Example language"
+          ]
+        },
+        {
+          "type": "List.Item.Detail.Metadata.TagList",
+          "title": "Currencies",
+          "items": [
+            "Example coin (¤)",
+            ""
+          ]
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Calling Code",
+          "text": "+999, +998"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Start of Week",
+          "text": "monday"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Academic Year Start",
+          "text": "1 September"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Fiscal Year Start",
+          "text": "January"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Driving Side",
+          "text": "right"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Vehicle Signs",
+          "text": "EX"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Number Format",
+          "text": "1,234,567.89"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Top-Level Domain",
+          "text": ".example"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Timezones",
+          "text": "UTC+05:00"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.TagList",
+          "title": "Borders",
+          "items": [
+            "Neighbor",
+            "MISSING",
+            "Untrimmed Border"
+          ]
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.TagList",
+          "title": "Memberships",
+          "items": [
+            "UN",
+            "NATO",
+            "African Union",
+            "Arab League"
+          ]
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Link",
+          "title": "Official Website",
+          "text": "Open",
+          "target": "https://www.gov.kz/"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Link",
+          "title": "Wikipedia",
+          "text": "Open",
+          "target": "https://en.wikipedia.org/wiki/Kazakhstan"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Link",
+          "title": "Google Maps",
+          "text": "Open",
+          "target": "https://maps.google.com/?q=Kazakhstan"
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action",
+          "title": "Toggle Details"
+        },
+        {
+          "type": "Action.OpenInBrowser",
+          "title": "Open in Google Maps",
+          "url": "https://maps.google.com/?q=Kazakhstan"
+        },
+        {
+          "type": "Action.OpenInBrowser",
+          "title": "Open in OpenStreetMap",
+          "url": "https://www.openstreetmap.org/relation/214665"
+        },
+        {
+          "type": "Action.OpenInBrowser",
+          "title": "Open Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kazakhstan"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy as Text",
+          "content": "🇰🇿 Example Å国\n\nOfficial Name: Republic of Example\nNative Name: Example, 例国\nCountry Code: EX\nAlpha-3 Code:  EXA \nNumeric Code: 009\nIOC Code: EXM\nFIFA Code: EXF\nCapital: Capital\nRegion: Asia · Central Asia\nContinent: Asia, Europe\nPopulation: 1,234,567.892\nArea: 16 km²\nLandlocked: No\nInhabitants: Examplean\nUnits: Metric · celsius\nGovernment: Republic\nLanguages: Example language\nCurrencies: Example coin (¤), \nCalling Code: +999, +998\nStart of Week: monday\nAcademic Year Start: 1 September\nFiscal Year Start: January\nDriving Side: right\nVehicle Signs: EX\nNumber Format: 1,234,567.89\nTop-Level Domain: .example\nTimezones: UTC+05:00\nBorders: Neighbor, MISSING, Untrimmed Border\nMemberships: UN, NATO, African Union, Arab League\nOfficial Website: https://www.gov.kz/\nWikipedia: https://en.wikipedia.org/wiki/Kazakhstan\nGoogle Maps: https://maps.google.com/?q=Kazakhstan"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Country Name",
+          "content": "Example Å国"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Country Code",
+          "content": "EX"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Flag Emoji",
+          "content": "🇰🇿"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Raw JSON",
+          "content": "{\n  \"names\": {\n    \"common\": \"Example Å国\",\n    \"official\": \"Republic of Example\",\n    \"alternates\": [\n      \"Exampleland\",\n      \"Exämple\"\n    ],\n    \"native\": {\n      \"eng\": {\n        \"common\": \"Example\"\n      },\n      \"other\": {\n        \"common\": \"例国\"\n      },\n      \"repeat\": {\n        \"common\": \"Example\"\n      }\n    }\n  },\n  \"codes\": {\n    \"alpha_2\": \"EX\",\n    \"alpha_3\": \" EXA \",\n    \"ccn3\": \"009\",\n    \"cioc\": \"EXM\",\n    \"fifa\": \"EXF\"\n  },\n  \"flag\": {\n    \"emoji\": \"🇰🇿\",\n    \"url_png\": \"https://flagcdn.com/w320/kz.png\",\n    \"description\": \"A flag\"\n  },\n  \"capitals\": [\n    {\n      \"name\": \"Capital\"\n    },\n    {\n      \"name\": \"\"\n    }\n  ],\n  \"region\": \"Asia\",\n  \"subregion\": \"Central Asia\",\n  \"continents\": [\n    \"Asia\",\n    \"Europe\"\n  ],\n  \"population\": 1234567.8916,\n  \"area\": {\n    \"kilometers\": 15.5\n  },\n  \"landlocked\": false,\n  \"demonyms\": {\n    \"eng\": {\n      \"m\": \"Examplean\",\n      \"f\": \"Examplean\"\n    }\n  },\n  \"units\": {\n    \"measurement_system\": \"metric\",\n    \"temperature_scale\": \"celsius\"\n  },\n  \"government_type\": \"Republic\",\n  \"languages\": [\n    {\n      \"name\": \"Example language\"\n    },\n    {\n      \"name\": \"\"\n    }\n  ],\n  \"currencies\": [\n    {\n      \"name\": \"Example coin\",\n      \"symbol\": \"¤\"\n    },\n    {\n      \"name\": \"\",\n      \"symbol\": \"\"\n    }\n  ],\n  \"calling_codes\": [\n    \"+999\",\n    \"+998\"\n  ],\n  \"date\": {\n    \"start_of_week\": \"monday\",\n    \"academic_year_start\": {\n      \"day\": 1,\n      \"month\": 9\n    },\n    \"fiscal_year_start\": {\n      \"government\": {\n        \"day\": 0,\n        \"month\": 1\n      }\n    }\n  },\n  \"cars\": {\n    \"driving_side\": \"right\",\n    \"signs\": [\n      \"EX\",\n      \"\"\n    ]\n  },\n  \"number_format\": {\n    \"thousands_separator\": \",\",\n    \"decimal_separator\": \".\"\n  },\n  \"tlds\": [\n    \".example\"\n  ],\n  \"timezones\": [\n    \"UTC+05:00\"\n  ],\n  \"borders\": [\n    \"EXB\",\n    \"MISSING\",\n    \" EXA \"\n  ],\n  \"memberships\": {\n    \"un\": true,\n    \"eu\": false,\n    \"nato\": true,\n    \"african_union\": true,\n    \"arab_league\": true,\n    \"unknown\": true\n  },\n  \"links\": {\n    \"official\": \"https://www.gov.kz/\",\n    \"wikipedia\": \"https://en.wikipedia.org/wiki/Kazakhstan\",\n    \"google_maps\": \"https://maps.google.com/?q=Kazakhstan\",\n    \"open_street_maps\": \"https://www.openstreetmap.org/relation/214665\"\n  },\n  \"unknown\": {\n    \"2\": \"two\",\n    \"10\": \"ten\",\n    \"z\": \"😀\",\n    \"negative\": 0,\n    \"fraction\": 1e-7\n  }\n}"
+        },
+        {
+          "type": "Action",
+          "title": "Refresh"
+        }
+      ]
+    },
+    {
+      "input": "{}",
+      "text": "Unknown\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: —\nArea: —\nLandlocked: —\nInhabitants: —\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —",
+      "raw": "{}",
+      "common": "Unknown",
+      "keywords": [],
+      "metadata": [
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Official Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Native Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Country Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Alpha-3 Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Numeric Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Capital",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Region",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Continent",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Population",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Area",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Landlocked",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Inhabitants",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Units",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Government",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Calling Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Start of Week",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Academic Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Fiscal Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Driving Side",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Vehicle Signs",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Number Format",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Top-Level Domain",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Timezones",
+          "text": "—"
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action",
+          "title": "Toggle Details"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy as Text",
+          "content": "Unknown\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: —\nArea: —\nLandlocked: —\nInhabitants: —\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Country Name",
+          "content": "Unknown"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Raw JSON",
+          "content": "{}"
+        },
+        {
+          "type": "Action",
+          "title": "Refresh"
+        }
+      ]
+    },
+    {
+      "input": "{\"names\":{\"common\":\"\",\"official\":\"Official\"},\"population\":null,\"landlocked\":null,\"area\":{\"kilometers\":-0.5},\"currencies\":[{}],\"date\":{\"start_of_week\":\"\",\"academic_year_start\":{\"month\":13,\"day\":1}},\"units\":{},\"number_format\":{},\"cars\":{\"signs\":[]},\"tlds\":[]}",
+      "text": "\n\nOfficial Name: Official\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 0\nArea: -0 km²\nLandlocked: No\nInhabitants: —\nUnits: —\nGovernment: —\nCurrencies: \nCalling Code: —\nStart of Week: \nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —",
+      "raw": "{\n  \"names\": {\n    \"common\": \"\",\n    \"official\": \"Official\"\n  },\n  \"population\": null,\n  \"landlocked\": null,\n  \"area\": {\n    \"kilometers\": -0.5\n  },\n  \"currencies\": [\n    {}\n  ],\n  \"date\": {\n    \"start_of_week\": \"\",\n    \"academic_year_start\": {\n      \"month\": 13,\n      \"day\": 1\n    }\n  },\n  \"units\": {},\n  \"number_format\": {},\n  \"cars\": {\n    \"signs\": []\n  },\n  \"tlds\": []\n}",
+      "common": "",
+      "keywords": [
+        "Official"
+      ],
+      "metadata": [
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Official Name",
+          "text": "Official"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Native Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Country Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Alpha-3 Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Numeric Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Capital",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Region",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Continent",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Population",
+          "text": "0"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Area",
+          "text": "-0 km²"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Landlocked",
+          "text": "No"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Inhabitants",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Units",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Government",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.TagList",
+          "title": "Currencies",
+          "items": [
+            ""
+          ]
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Calling Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Start of Week",
+          "text": ""
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Academic Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Fiscal Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Driving Side",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Vehicle Signs",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Number Format",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Top-Level Domain",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Timezones",
+          "text": "—"
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action",
+          "title": "Toggle Details"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy as Text",
+          "content": "\n\nOfficial Name: Official\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 0\nArea: -0 km²\nLandlocked: No\nInhabitants: —\nUnits: —\nGovernment: —\nCurrencies: \nCalling Code: —\nStart of Week: \nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Country Name",
+          "content": ""
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Raw JSON",
+          "content": "{\n  \"names\": {\n    \"common\": \"\",\n    \"official\": \"Official\"\n  },\n  \"population\": null,\n  \"landlocked\": null,\n  \"area\": {\n    \"kilometers\": -0.5\n  },\n  \"currencies\": [\n    {}\n  ],\n  \"date\": {\n    \"start_of_week\": \"\",\n    \"academic_year_start\": {\n      \"month\": 13,\n      \"day\": 1\n    }\n  },\n  \"units\": {},\n  \"number_format\": {},\n  \"cars\": {\n    \"signs\": []\n  },\n  \"tlds\": []\n}"
+        },
+        {
+          "type": "Action",
+          "title": "Refresh"
+        }
+      ]
+    },
+    {
+      "input": "{\"names\":{\"official\":\"Fallback\",\"native\":{}},\"codes\":{\"alpha_3\":\" \"},\"demonyms\":{\"2\":{\"f\":\"Two\"},\"10\":{\"f\":\"Ten\"},\"eng\":null},\"area\":{},\"population\":0,\"calling_codes\":[null,\"\"],\"links\":{},\"borders\":[\"EXB\"]}",
+      "text": "Fallback\n\nOfficial Name: Fallback\nNative Name: —\nCountry Code: —\nAlpha-3 Code:  \nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 0\nArea: NaN km²\nLandlocked: —\nInhabitants: Two\nUnits: —\nGovernment: —\nCalling Code: , \nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —\nBorders: Neighbor",
+      "raw": "{\n  \"names\": {\n    \"official\": \"Fallback\",\n    \"native\": {}\n  },\n  \"codes\": {\n    \"alpha_3\": \" \"\n  },\n  \"demonyms\": {\n    \"2\": {\n      \"f\": \"Two\"\n    },\n    \"10\": {\n      \"f\": \"Ten\"\n    },\n    \"eng\": null\n  },\n  \"area\": {},\n  \"population\": 0,\n  \"calling_codes\": [\n    null,\n    \"\"\n  ],\n  \"links\": {},\n  \"borders\": [\n    \"EXB\"\n  ]\n}",
+      "common": "Fallback",
+      "keywords": [
+        "Fallback",
+        " ",
+        "Two"
+      ],
+      "metadata": [
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Official Name",
+          "text": "Fallback"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Native Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Country Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Alpha-3 Code",
+          "text": " "
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Numeric Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Capital",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Region",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Continent",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Population",
+          "text": "0"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Area",
+          "text": "NaN km²"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Landlocked",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Inhabitants",
+          "text": "Two"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Units",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Government",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Calling Code",
+          "text": ", "
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Start of Week",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Academic Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Fiscal Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Driving Side",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Vehicle Signs",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Number Format",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Top-Level Domain",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Timezones",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.TagList",
+          "title": "Borders",
+          "items": [
+            "Neighbor"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action",
+          "title": "Toggle Details"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy as Text",
+          "content": "Fallback\n\nOfficial Name: Fallback\nNative Name: —\nCountry Code: —\nAlpha-3 Code:  \nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 0\nArea: NaN km²\nLandlocked: —\nInhabitants: Two\nUnits: —\nGovernment: —\nCalling Code: , \nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —\nBorders: Neighbor"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Country Name",
+          "content": "Fallback"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Raw JSON",
+          "content": "{\n  \"names\": {\n    \"official\": \"Fallback\",\n    \"native\": {}\n  },\n  \"codes\": {\n    \"alpha_3\": \" \"\n  },\n  \"demonyms\": {\n    \"2\": {\n      \"f\": \"Two\"\n    },\n    \"10\": {\n      \"f\": \"Ten\"\n    },\n    \"eng\": null\n  },\n  \"area\": {},\n  \"population\": 0,\n  \"calling_codes\": [\n    null,\n    \"\"\n  ],\n  \"links\": {},\n  \"borders\": [\n    \"EXB\"\n  ]\n}"
+        },
+        {
+          "type": "Action",
+          "title": "Refresh"
+        }
+      ]
+    },
+    {
+      "input": "{\"names\":{\"common\":\"<script>evil</script> [link](tezbar://x)\"},\"flag\":{\"description\":\"![x](file:///private/test)\\n<button>x</button>\"},\"memberships\":{\"un\":\"yes\"},\"units\":{\"measurement_system\":\"iMPERIAL\"},\"date\":{\"academic_year_start\":{\"month\":2,\"day\":-1}}}",
+      "text": "<script>evil</script> [link](tezbar://x)\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: —\nArea: —\nLandlocked: —\nInhabitants: —\nUnits: IMPERIAL\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: -1 February\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —\nMemberships: UN",
+      "raw": "{\n  \"names\": {\n    \"common\": \"<script>evil</script> [link](tezbar://x)\"\n  },\n  \"flag\": {\n    \"description\": \"![x](file:///private/test)\\n<button>x</button>\"\n  },\n  \"memberships\": {\n    \"un\": \"yes\"\n  },\n  \"units\": {\n    \"measurement_system\": \"iMPERIAL\"\n  },\n  \"date\": {\n    \"academic_year_start\": {\n      \"month\": 2,\n      \"day\": -1\n    }\n  }\n}",
+      "common": "<script>evil</script> [link](tezbar://x)",
+      "keywords": [],
+      "metadata": [
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Official Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Native Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Country Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Alpha-3 Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Numeric Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Capital",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Region",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Continent",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Population",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Area",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Landlocked",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Inhabitants",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Units",
+          "text": "IMPERIAL"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Government",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Calling Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Start of Week",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Academic Year Start",
+          "text": "-1 February"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Fiscal Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Driving Side",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Vehicle Signs",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Number Format",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Top-Level Domain",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Timezones",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.TagList",
+          "title": "Memberships",
+          "items": [
+            "UN"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action",
+          "title": "Toggle Details"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy as Text",
+          "content": "<script>evil</script> [link](tezbar://x)\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: —\nArea: —\nLandlocked: —\nInhabitants: —\nUnits: IMPERIAL\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: -1 February\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —\nMemberships: UN"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Country Name",
+          "content": "<script>evil</script> [link](tezbar://x)"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Raw JSON",
+          "content": "{\n  \"names\": {\n    \"common\": \"<script>evil</script> [link](tezbar://x)\"\n  },\n  \"flag\": {\n    \"description\": \"![x](file:///private/test)\\n<button>x</button>\"\n  },\n  \"memberships\": {\n    \"un\": \"yes\"\n  },\n  \"units\": {\n    \"measurement_system\": \"iMPERIAL\"\n  },\n  \"date\": {\n    \"academic_year_start\": {\n      \"month\": 2,\n      \"day\": -1\n    }\n  }\n}"
+        },
+        {
+          "type": "Action",
+          "title": "Refresh"
+        }
+      ]
+    },
+    {
+      "input": "{\"names\":{\"common\":\"Numeric\"},\"population\":-0,\"area\":{\"kilometers\":-0},\"unknown\":{\"10\":-0,\"2\":-0,\"a\":-0},\"demonyms\":{\"2\":{\"m\":\"Two\"},\"1\":{\"m\":\"One\"}}}",
+      "text": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: -0\nArea: -0 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —",
+      "raw": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 0,\n  \"area\": {\n    \"kilometers\": 0\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 0,\n    \"a\": 0\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}",
+      "common": "Numeric",
+      "keywords": [
+        "One"
+      ],
+      "metadata": [
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Official Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Native Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Country Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Alpha-3 Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Numeric Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Capital",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Region",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Continent",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Population",
+          "text": "-0"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Area",
+          "text": "-0 km²"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Landlocked",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Inhabitants",
+          "text": "One"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Units",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Government",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Calling Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Start of Week",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Academic Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Fiscal Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Driving Side",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Vehicle Signs",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Number Format",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Top-Level Domain",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Timezones",
+          "text": "—"
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action",
+          "title": "Toggle Details"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy as Text",
+          "content": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: -0\nArea: -0 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Country Name",
+          "content": "Numeric"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Raw JSON",
+          "content": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 0,\n  \"area\": {\n    \"kilometers\": 0\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 0,\n    \"a\": 0\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}"
+        },
+        {
+          "type": "Action",
+          "title": "Refresh"
+        }
+      ]
+    },
+    {
+      "input": "{\"names\":{\"common\":\"Numeric\"},\"population\":-0.0001,\"area\":{\"kilometers\":-0.0001},\"unknown\":{\"10\":-0.0001,\"2\":-0,\"a\":-0.0001},\"demonyms\":{\"2\":{\"m\":\"Two\"},\"1\":{\"m\":\"One\"}}}",
+      "text": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: -0\nArea: -0 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —",
+      "raw": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": -0.0001,\n  \"area\": {\n    \"kilometers\": -0.0001\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": -0.0001,\n    \"a\": -0.0001\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}",
+      "common": "Numeric",
+      "keywords": [
+        "One"
+      ],
+      "metadata": [
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Official Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Native Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Country Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Alpha-3 Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Numeric Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Capital",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Region",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Continent",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Population",
+          "text": "-0"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Area",
+          "text": "-0 km²"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Landlocked",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Inhabitants",
+          "text": "One"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Units",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Government",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Calling Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Start of Week",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Academic Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Fiscal Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Driving Side",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Vehicle Signs",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Number Format",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Top-Level Domain",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Timezones",
+          "text": "—"
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action",
+          "title": "Toggle Details"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy as Text",
+          "content": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: -0\nArea: -0 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Country Name",
+          "content": "Numeric"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Raw JSON",
+          "content": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": -0.0001,\n  \"area\": {\n    \"kilometers\": -0.0001\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": -0.0001,\n    \"a\": -0.0001\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}"
+        },
+        {
+          "type": "Action",
+          "title": "Refresh"
+        }
+      ]
+    },
+    {
+      "input": "{\"names\":{\"common\":\"Numeric\"},\"population\":0,\"area\":{\"kilometers\":0},\"unknown\":{\"10\":0,\"2\":-0,\"a\":0},\"demonyms\":{\"2\":{\"m\":\"Two\"},\"1\":{\"m\":\"One\"}}}",
+      "text": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 0\nArea: 0 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —",
+      "raw": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 0,\n  \"area\": {\n    \"kilometers\": 0\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 0,\n    \"a\": 0\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}",
+      "common": "Numeric",
+      "keywords": [
+        "One"
+      ],
+      "metadata": [
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Official Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Native Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Country Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Alpha-3 Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Numeric Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Capital",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Region",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Continent",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Population",
+          "text": "0"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Area",
+          "text": "0 km²"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Landlocked",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Inhabitants",
+          "text": "One"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Units",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Government",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Calling Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Start of Week",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Academic Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Fiscal Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Driving Side",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Vehicle Signs",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Number Format",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Top-Level Domain",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Timezones",
+          "text": "—"
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action",
+          "title": "Toggle Details"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy as Text",
+          "content": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 0\nArea: 0 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Country Name",
+          "content": "Numeric"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Raw JSON",
+          "content": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 0,\n  \"area\": {\n    \"kilometers\": 0\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 0,\n    \"a\": 0\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}"
+        },
+        {
+          "type": "Action",
+          "title": "Refresh"
+        }
+      ]
+    },
+    {
+      "input": "{\"names\":{\"common\":\"Numeric\"},\"population\":0.0005,\"area\":{\"kilometers\":0.0005},\"unknown\":{\"10\":0.0005,\"2\":-0,\"a\":0.0005},\"demonyms\":{\"2\":{\"m\":\"Two\"},\"1\":{\"m\":\"One\"}}}",
+      "text": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 0.001\nArea: 0 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —",
+      "raw": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 0.0005,\n  \"area\": {\n    \"kilometers\": 0.0005\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 0.0005,\n    \"a\": 0.0005\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}",
+      "common": "Numeric",
+      "keywords": [
+        "One"
+      ],
+      "metadata": [
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Official Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Native Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Country Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Alpha-3 Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Numeric Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Capital",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Region",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Continent",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Population",
+          "text": "0.001"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Area",
+          "text": "0 km²"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Landlocked",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Inhabitants",
+          "text": "One"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Units",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Government",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Calling Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Start of Week",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Academic Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Fiscal Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Driving Side",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Vehicle Signs",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Number Format",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Top-Level Domain",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Timezones",
+          "text": "—"
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action",
+          "title": "Toggle Details"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy as Text",
+          "content": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 0.001\nArea: 0 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Country Name",
+          "content": "Numeric"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Raw JSON",
+          "content": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 0.0005,\n  \"area\": {\n    \"kilometers\": 0.0005\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 0.0005,\n    \"a\": 0.0005\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}"
+        },
+        {
+          "type": "Action",
+          "title": "Refresh"
+        }
+      ]
+    },
+    {
+      "input": "{\"names\":{\"common\":\"Numeric\"},\"population\":1.2345,\"area\":{\"kilometers\":1.2345},\"unknown\":{\"10\":1.2345,\"2\":-0,\"a\":1.2345},\"demonyms\":{\"2\":{\"m\":\"Two\"},\"1\":{\"m\":\"One\"}}}",
+      "text": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 1.235\nArea: 1 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —",
+      "raw": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 1.2345,\n  \"area\": {\n    \"kilometers\": 1.2345\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 1.2345,\n    \"a\": 1.2345\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}",
+      "common": "Numeric",
+      "keywords": [
+        "One"
+      ],
+      "metadata": [
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Official Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Native Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Country Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Alpha-3 Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Numeric Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Capital",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Region",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Continent",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Population",
+          "text": "1.235"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Area",
+          "text": "1 km²"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Landlocked",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Inhabitants",
+          "text": "One"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Units",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Government",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Calling Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Start of Week",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Academic Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Fiscal Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Driving Side",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Vehicle Signs",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Number Format",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Top-Level Domain",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Timezones",
+          "text": "—"
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action",
+          "title": "Toggle Details"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy as Text",
+          "content": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 1.235\nArea: 1 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Country Name",
+          "content": "Numeric"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Raw JSON",
+          "content": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 1.2345,\n  \"area\": {\n    \"kilometers\": 1.2345\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 1.2345,\n    \"a\": 1.2345\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}"
+        },
+        {
+          "type": "Action",
+          "title": "Refresh"
+        }
+      ]
+    },
+    {
+      "input": "{\"names\":{\"common\":\"Numeric\"},\"population\":1.005,\"area\":{\"kilometers\":1.005},\"unknown\":{\"10\":1.005,\"2\":-0,\"a\":1.005},\"demonyms\":{\"2\":{\"m\":\"Two\"},\"1\":{\"m\":\"One\"}}}",
+      "text": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 1.005\nArea: 1 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —",
+      "raw": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 1.005,\n  \"area\": {\n    \"kilometers\": 1.005\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 1.005,\n    \"a\": 1.005\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}",
+      "common": "Numeric",
+      "keywords": [
+        "One"
+      ],
+      "metadata": [
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Official Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Native Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Country Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Alpha-3 Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Numeric Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Capital",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Region",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Continent",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Population",
+          "text": "1.005"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Area",
+          "text": "1 km²"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Landlocked",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Inhabitants",
+          "text": "One"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Units",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Government",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Calling Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Start of Week",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Academic Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Fiscal Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Driving Side",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Vehicle Signs",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Number Format",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Top-Level Domain",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Timezones",
+          "text": "—"
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action",
+          "title": "Toggle Details"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy as Text",
+          "content": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 1.005\nArea: 1 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Country Name",
+          "content": "Numeric"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Raw JSON",
+          "content": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 1.005,\n  \"area\": {\n    \"kilometers\": 1.005\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 1.005,\n    \"a\": 1.005\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}"
+        },
+        {
+          "type": "Action",
+          "title": "Refresh"
+        }
+      ]
+    },
+    {
+      "input": "{\"names\":{\"common\":\"Numeric\"},\"population\":-1.2345,\"area\":{\"kilometers\":-1.2345},\"unknown\":{\"10\":-1.2345,\"2\":-0,\"a\":-1.2345},\"demonyms\":{\"2\":{\"m\":\"Two\"},\"1\":{\"m\":\"One\"}}}",
+      "text": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: -1.235\nArea: -1 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —",
+      "raw": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": -1.2345,\n  \"area\": {\n    \"kilometers\": -1.2345\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": -1.2345,\n    \"a\": -1.2345\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}",
+      "common": "Numeric",
+      "keywords": [
+        "One"
+      ],
+      "metadata": [
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Official Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Native Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Country Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Alpha-3 Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Numeric Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Capital",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Region",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Continent",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Population",
+          "text": "-1.235"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Area",
+          "text": "-1 km²"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Landlocked",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Inhabitants",
+          "text": "One"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Units",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Government",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Calling Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Start of Week",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Academic Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Fiscal Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Driving Side",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Vehicle Signs",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Number Format",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Top-Level Domain",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Timezones",
+          "text": "—"
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action",
+          "title": "Toggle Details"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy as Text",
+          "content": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: -1.235\nArea: -1 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Country Name",
+          "content": "Numeric"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Raw JSON",
+          "content": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": -1.2345,\n  \"area\": {\n    \"kilometers\": -1.2345\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": -1.2345,\n    \"a\": -1.2345\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}"
+        },
+        {
+          "type": "Action",
+          "title": "Refresh"
+        }
+      ]
+    },
+    {
+      "input": "{\"names\":{\"common\":\"Numeric\"},\"population\":999.9995,\"area\":{\"kilometers\":999.9995},\"unknown\":{\"10\":999.9995,\"2\":-0,\"a\":999.9995},\"demonyms\":{\"2\":{\"m\":\"Two\"},\"1\":{\"m\":\"One\"}}}",
+      "text": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 1,000\nArea: 1,000 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —",
+      "raw": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 999.9995,\n  \"area\": {\n    \"kilometers\": 999.9995\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 999.9995,\n    \"a\": 999.9995\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}",
+      "common": "Numeric",
+      "keywords": [
+        "One"
+      ],
+      "metadata": [
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Official Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Native Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Country Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Alpha-3 Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Numeric Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Capital",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Region",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Continent",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Population",
+          "text": "1,000"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Area",
+          "text": "1,000 km²"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Landlocked",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Inhabitants",
+          "text": "One"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Units",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Government",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Calling Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Start of Week",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Academic Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Fiscal Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Driving Side",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Vehicle Signs",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Number Format",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Top-Level Domain",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Timezones",
+          "text": "—"
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action",
+          "title": "Toggle Details"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy as Text",
+          "content": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 1,000\nArea: 1,000 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Country Name",
+          "content": "Numeric"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Raw JSON",
+          "content": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 999.9995,\n  \"area\": {\n    \"kilometers\": 999.9995\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 999.9995,\n    \"a\": 999.9995\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}"
+        },
+        {
+          "type": "Action",
+          "title": "Refresh"
+        }
+      ]
+    },
+    {
+      "input": "{\"names\":{\"common\":\"Numeric\"},\"population\":999999999999999999999,\"area\":{\"kilometers\":999999999999999999999},\"unknown\":{\"10\":999999999999999999999,\"2\":-0,\"a\":999999999999999999999},\"demonyms\":{\"2\":{\"m\":\"Two\"},\"1\":{\"m\":\"One\"}}}",
+      "text": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 1,000,000,000,000,000,000,000\nArea: 1,000,000,000,000,000,000,000 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —",
+      "raw": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 1e+21,\n  \"area\": {\n    \"kilometers\": 1e+21\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 1e+21,\n    \"a\": 1e+21\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}",
+      "common": "Numeric",
+      "keywords": [
+        "One"
+      ],
+      "metadata": [
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Official Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Native Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Country Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Alpha-3 Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Numeric Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Capital",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Region",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Continent",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Population",
+          "text": "1,000,000,000,000,000,000,000"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Area",
+          "text": "1,000,000,000,000,000,000,000 km²"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Landlocked",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Inhabitants",
+          "text": "One"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Units",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Government",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Calling Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Start of Week",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Academic Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Fiscal Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Driving Side",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Vehicle Signs",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Number Format",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Top-Level Domain",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Timezones",
+          "text": "—"
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action",
+          "title": "Toggle Details"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy as Text",
+          "content": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 1,000,000,000,000,000,000,000\nArea: 1,000,000,000,000,000,000,000 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Country Name",
+          "content": "Numeric"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Raw JSON",
+          "content": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 1e+21,\n  \"area\": {\n    \"kilometers\": 1e+21\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 1e+21,\n    \"a\": 1e+21\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}"
+        },
+        {
+          "type": "Action",
+          "title": "Refresh"
+        }
+      ]
+    },
+    {
+      "input": "{\"names\":{\"common\":\"Numeric\"},\"population\":1000000000000000100,\"area\":{\"kilometers\":1000000000000000100},\"unknown\":{\"10\":1000000000000000100,\"2\":-0,\"a\":1000000000000000100},\"demonyms\":{\"2\":{\"m\":\"Two\"},\"1\":{\"m\":\"One\"}}}",
+      "text": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 1,000,000,000,000,000,100\nArea: 1,000,000,000,000,000,100 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —",
+      "raw": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 1000000000000000100,\n  \"area\": {\n    \"kilometers\": 1000000000000000100\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 1000000000000000100,\n    \"a\": 1000000000000000100\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}",
+      "common": "Numeric",
+      "keywords": [
+        "One"
+      ],
+      "metadata": [
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Official Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Native Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Country Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Alpha-3 Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Numeric Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Capital",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Region",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Continent",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Population",
+          "text": "1,000,000,000,000,000,100"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Area",
+          "text": "1,000,000,000,000,000,100 km²"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Landlocked",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Inhabitants",
+          "text": "One"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Units",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Government",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Calling Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Start of Week",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Academic Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Fiscal Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Driving Side",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Vehicle Signs",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Number Format",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Top-Level Domain",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Timezones",
+          "text": "—"
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action",
+          "title": "Toggle Details"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy as Text",
+          "content": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 1,000,000,000,000,000,100\nArea: 1,000,000,000,000,000,100 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Country Name",
+          "content": "Numeric"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Raw JSON",
+          "content": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 1000000000000000100,\n  \"area\": {\n    \"kilometers\": 1000000000000000100\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 1000000000000000100,\n    \"a\": 1000000000000000100\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}"
+        },
+        {
+          "type": "Action",
+          "title": "Refresh"
+        }
+      ]
+    },
+    {
+      "input": "{\"names\":{\"common\":\"Numeric\"},\"population\":9007199254740993,\"area\":{\"kilometers\":9007199254740993},\"unknown\":{\"10\":9007199254740993,\"2\":-0,\"a\":9007199254740993},\"demonyms\":{\"2\":{\"m\":\"Two\"},\"1\":{\"m\":\"One\"}}}",
+      "text": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 9,007,199,254,740,992\nArea: 9,007,199,254,740,992 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —",
+      "raw": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 9007199254740992,\n  \"area\": {\n    \"kilometers\": 9007199254740992\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 9007199254740992,\n    \"a\": 9007199254740992\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}",
+      "common": "Numeric",
+      "keywords": [
+        "One"
+      ],
+      "metadata": [
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Official Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Native Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Country Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Alpha-3 Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Numeric Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Capital",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Region",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Continent",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Population",
+          "text": "9,007,199,254,740,992"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Area",
+          "text": "9,007,199,254,740,992 km²"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Landlocked",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Inhabitants",
+          "text": "One"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Units",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Government",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Calling Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Start of Week",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Academic Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Fiscal Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Driving Side",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Vehicle Signs",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Number Format",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Top-Level Domain",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Timezones",
+          "text": "—"
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action",
+          "title": "Toggle Details"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy as Text",
+          "content": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 9,007,199,254,740,992\nArea: 9,007,199,254,740,992 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Country Name",
+          "content": "Numeric"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Raw JSON",
+          "content": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 9007199254740992,\n  \"area\": {\n    \"kilometers\": 9007199254740992\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 9007199254740992,\n    \"a\": 9007199254740992\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}"
+        },
+        {
+          "type": "Action",
+          "title": "Refresh"
+        }
+      ]
+    },
+    {
+      "input": "{\"names\":{\"common\":\"Numeric\"},\"population\":1e21,\"area\":{\"kilometers\":1e21},\"unknown\":{\"10\":1e21,\"2\":-0,\"a\":1e21},\"demonyms\":{\"2\":{\"m\":\"Two\"},\"1\":{\"m\":\"One\"}}}",
+      "text": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 1,000,000,000,000,000,000,000\nArea: 1,000,000,000,000,000,000,000 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —",
+      "raw": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 1e+21,\n  \"area\": {\n    \"kilometers\": 1e+21\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 1e+21,\n    \"a\": 1e+21\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}",
+      "common": "Numeric",
+      "keywords": [
+        "One"
+      ],
+      "metadata": [
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Official Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Native Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Country Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Alpha-3 Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Numeric Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Capital",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Region",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Continent",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Population",
+          "text": "1,000,000,000,000,000,000,000"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Area",
+          "text": "1,000,000,000,000,000,000,000 km²"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Landlocked",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Inhabitants",
+          "text": "One"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Units",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Government",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Calling Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Start of Week",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Academic Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Fiscal Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Driving Side",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Vehicle Signs",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Number Format",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Top-Level Domain",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Timezones",
+          "text": "—"
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action",
+          "title": "Toggle Details"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy as Text",
+          "content": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 1,000,000,000,000,000,000,000\nArea: 1,000,000,000,000,000,000,000 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Country Name",
+          "content": "Numeric"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Raw JSON",
+          "content": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 1e+21,\n  \"area\": {\n    \"kilometers\": 1e+21\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 1e+21,\n    \"a\": 1e+21\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}"
+        },
+        {
+          "type": "Action",
+          "title": "Refresh"
+        }
+      ]
+    },
+    {
+      "input": "{\"names\":{\"common\":\"Numeric\"},\"population\":1e-7,\"area\":{\"kilometers\":1e-7},\"unknown\":{\"10\":1e-7,\"2\":-0,\"a\":1e-7},\"demonyms\":{\"2\":{\"m\":\"Two\"},\"1\":{\"m\":\"One\"}}}",
+      "text": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 0\nArea: 0 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —",
+      "raw": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 1e-7,\n  \"area\": {\n    \"kilometers\": 1e-7\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 1e-7,\n    \"a\": 1e-7\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}",
+      "common": "Numeric",
+      "keywords": [
+        "One"
+      ],
+      "metadata": [
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Official Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Native Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Country Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Alpha-3 Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Numeric Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Capital",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Region",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Continent",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Population",
+          "text": "0"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Area",
+          "text": "0 km²"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Landlocked",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Inhabitants",
+          "text": "One"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Units",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Government",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Calling Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Start of Week",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Academic Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Fiscal Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Driving Side",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Vehicle Signs",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Number Format",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Top-Level Domain",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Timezones",
+          "text": "—"
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action",
+          "title": "Toggle Details"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy as Text",
+          "content": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 0\nArea: 0 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Country Name",
+          "content": "Numeric"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Raw JSON",
+          "content": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 1e-7,\n  \"area\": {\n    \"kilometers\": 1e-7\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 1e-7,\n    \"a\": 1e-7\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}"
+        },
+        {
+          "type": "Action",
+          "title": "Refresh"
+        }
+      ]
+    },
+    {
+      "input": "{\"names\":{\"common\":\"Numeric\"},\"population\":1.7976931348623157e308,\"area\":{\"kilometers\":1.7976931348623157e308},\"unknown\":{\"10\":1.7976931348623157e308,\"2\":-0,\"a\":1.7976931348623157e308},\"demonyms\":{\"2\":{\"m\":\"Two\"},\"1\":{\"m\":\"One\"}}}",
+      "text": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 179,769,313,486,231,570,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000\nArea: 179,769,313,486,231,570,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —",
+      "raw": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 1.7976931348623157e+308,\n  \"area\": {\n    \"kilometers\": 1.7976931348623157e+308\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 1.7976931348623157e+308,\n    \"a\": 1.7976931348623157e+308\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}",
+      "common": "Numeric",
+      "keywords": [
+        "One"
+      ],
+      "metadata": [
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Official Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Native Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Country Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Alpha-3 Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Numeric Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Capital",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Region",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Continent",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Population",
+          "text": "179,769,313,486,231,570,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Area",
+          "text": "179,769,313,486,231,570,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000 km²"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Landlocked",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Inhabitants",
+          "text": "One"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Units",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Government",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Calling Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Start of Week",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Academic Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Fiscal Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Driving Side",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Vehicle Signs",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Number Format",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Top-Level Domain",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Timezones",
+          "text": "—"
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action",
+          "title": "Toggle Details"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy as Text",
+          "content": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 179,769,313,486,231,570,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000\nArea: 179,769,313,486,231,570,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Country Name",
+          "content": "Numeric"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Raw JSON",
+          "content": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 1.7976931348623157e+308,\n  \"area\": {\n    \"kilometers\": 1.7976931348623157e+308\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 1.7976931348623157e+308,\n    \"a\": 1.7976931348623157e+308\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}"
+        },
+        {
+          "type": "Action",
+          "title": "Refresh"
+        }
+      ]
+    },
+    {
+      "input": "{\"names\":{\"common\":\"Numeric\"},\"population\":5e-324,\"area\":{\"kilometers\":5e-324},\"unknown\":{\"10\":5e-324,\"2\":-0,\"a\":5e-324},\"demonyms\":{\"2\":{\"m\":\"Two\"},\"1\":{\"m\":\"One\"}}}",
+      "text": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 0\nArea: 0 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —",
+      "raw": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 5e-324,\n  \"area\": {\n    \"kilometers\": 5e-324\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 5e-324,\n    \"a\": 5e-324\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}",
+      "common": "Numeric",
+      "keywords": [
+        "One"
+      ],
+      "metadata": [
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Official Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Native Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Country Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Alpha-3 Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Numeric Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Capital",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Region",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Continent",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Population",
+          "text": "0"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Area",
+          "text": "0 km²"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Landlocked",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Inhabitants",
+          "text": "One"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Units",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Government",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Calling Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Start of Week",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Academic Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Fiscal Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Driving Side",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Vehicle Signs",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Number Format",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Top-Level Domain",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Timezones",
+          "text": "—"
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action",
+          "title": "Toggle Details"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy as Text",
+          "content": "Numeric\n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: 0\nArea: 0 km²\nLandlocked: —\nInhabitants: One\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Country Name",
+          "content": "Numeric"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Raw JSON",
+          "content": "{\n  \"names\": {\n    \"common\": \"Numeric\"\n  },\n  \"population\": 5e-324,\n  \"area\": {\n    \"kilometers\": 5e-324\n  },\n  \"unknown\": {\n    \"2\": 0,\n    \"10\": 5e-324,\n    \"a\": 5e-324\n  },\n  \"demonyms\": {\n    \"1\": {\n      \"m\": \"One\"\n    },\n    \"2\": {\n      \"m\": \"Two\"\n    }\n  }\n}"
+        },
+        {
+          "type": "Action",
+          "title": "Refresh"
+        }
+      ]
+    },
+    {
+      "input": "{\"names\":{\"common\":\"Unicode \\ud83d\\ude00 \\u2028\"},\"unknown\":{\"b\":1,\"01\":2,\"4294967295\":3,\"4294967294\":4,\"0\":5,\"10\":6,\"2\":7,\"control\":\"\\u0000\\n\\t\"}}",
+      "text": "Unicode 😀  \n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: —\nArea: —\nLandlocked: —\nInhabitants: —\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —",
+      "raw": "{\n  \"names\": {\n    \"common\": \"Unicode 😀  \"\n  },\n  \"unknown\": {\n    \"0\": 5,\n    \"2\": 7,\n    \"10\": 6,\n    \"4294967294\": 4,\n    \"b\": 1,\n    \"01\": 2,\n    \"4294967295\": 3,\n    \"control\": \"\\u0000\\n\\t\"\n  }\n}",
+      "common": "Unicode 😀  ",
+      "keywords": [],
+      "metadata": [
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Official Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Native Name",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Country Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Alpha-3 Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Numeric Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Capital",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Region",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Continent",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Population",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Area",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Landlocked",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Inhabitants",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Units",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Government",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Separator"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Calling Code",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Start of Week",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Academic Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Fiscal Year Start",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Driving Side",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Vehicle Signs",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Number Format",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Top-Level Domain",
+          "text": "—"
+        },
+        {
+          "type": "List.Item.Detail.Metadata.Label",
+          "title": "Timezones",
+          "text": "—"
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action",
+          "title": "Toggle Details"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy as Text",
+          "content": "Unicode 😀  \n\nOfficial Name: —\nNative Name: —\nCountry Code: —\nAlpha-3 Code: —\nNumeric Code: —\nCapital: —\nRegion: —\nContinent: —\nPopulation: —\nArea: —\nLandlocked: —\nInhabitants: —\nUnits: —\nGovernment: —\nCalling Code: —\nStart of Week: —\nAcademic Year Start: —\nFiscal Year Start: —\nDriving Side: —\nVehicle Signs: —\nNumber Format: —\nTop-Level Domain: —\nTimezones: —"
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Country Name",
+          "content": "Unicode 😀  "
+        },
+        {
+          "type": "Action.CopyToClipboard",
+          "title": "Copy Raw JSON",
+          "content": "{\n  \"names\": {\n    \"common\": \"Unicode 😀  \"\n  },\n  \"unknown\": {\n    \"0\": 5,\n    \"2\": 7,\n    \"10\": 6,\n    \"4294967294\": 4,\n    \"b\": 1,\n    \"01\": 2,\n    \"4294967295\": 3,\n    \"control\": \"\\u0000\\n\\t\"\n  }\n}"
+        },
+        {
+          "type": "Action",
+          "title": "Refresh"
+        }
+      ]
+    }
+  ],
+  "names": [
+    [
+      "EXB",
+      "Neighbor"
+    ],
+    [
+      " EXA ",
+      "Untrimmed Border"
+    ]
+  ],
+  "requestOracle": [
+    {
+      "url": "https://api.restcountries.com/countries/v5?limit=100&offset=0",
+      "bearerCorrect": true
+    },
+    {
+      "url": "https://api.restcountries.com/countries/v5?limit=100&offset=100",
+      "bearerCorrect": true
+    },
+    {
+      "url": "https://api.restcountries.com/countries/v5?limit=100&offset=200",
+      "bearerCorrect": true
+    },
+    {
+      "url": "https://api.restcountries.com/countries/v5?limit=100&offset=300",
+      "bearerCorrect": true
+    },
+    {
+      "url": "https://api.restcountries.com/countries/v5?limit=100&offset=0",
+      "bearerCorrect": true
+    },
+    {
+      "url": "https://api.restcountries.com/countries/v5?limit=100&offset=100",
+      "bearerCorrect": true
+    },
+    {
+      "url": "https://api.restcountries.com/countries/v5?limit=100&offset=200",
+      "bearerCorrect": true
+    },
+    {
+      "url": "https://api.restcountries.com/countries/v5?limit=100&offset=300",
+      "bearerCorrect": true
+    },
+    {
+      "url": "https://api.restcountries.com/countries/v5?limit=100&offset=0",
+      "bearerCorrect": true
+    },
+    {
+      "url": "https://api.restcountries.com/countries/v5?limit=100&offset=100",
+      "bearerCorrect": true
+    },
+    {
+      "url": "https://api.restcountries.com/countries/v5?limit=100&offset=200",
+      "bearerCorrect": true
+    }
+  ],
+  "assertions": [
+    "closed imports deny fs/os/child_process/http/unknown",
+    "genuine library bearer/request/envelope/_match/_meta",
+    "source three parallel pages plus >300 sequential",
+    "source complete cache hit and four-hour expiry",
+    "genuine source hide trim only; source toggle cached false",
+    "genuine usePromise failure drops previous data; error toast",
+    "source overfetch at offsets 100/200 for one record"
+  ]
+}

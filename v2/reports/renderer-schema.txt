@@ -1,0 +1,1 @@
+Actual renderer/schema tests passed: List split detail, full metadata/links, row/Enter/ActionOverlay/Back/server search/Markdown/flag; Detail MouseEvent before/after seam; schema positives and 8 negatives.

@@ -1,0 +1,59 @@
+   Compiling country-lookup-native v0.2.0 (/Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/country-lookup/v2)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.34s
+     Running unittests src/lib.rs (target/debug/deps/country_lookup_native-507ecc72a2762f0d)
+
+running 15 tests
+test app::tests::strict_acknowledgements ... ok
+test data::tests::malformed_limits_and_secret_reflection ... ok
+test data::tests::small_dataset_still_matches_source_speculative_offsets ... ok
+test app::tests::missing_key_no_traffic_and_drop_guard_cleanup ... ok
+test data::tests::status_and_redirect_never_echo_body_or_follow ... ok
+test data::tests::repeating_pages_fail_visibly ... ok
+test data::tests::real_http_auth_pages_order_and_stripping ... ok
+test app::action_oracle_tests::actual_source_action_order_and_exact_copy_open_intents ... ok
+test app::tests::concurrent_toggle_transactions_are_lossless_and_bounded ... ok
+test app::refresh_tests::failed_refresh_drops_data_and_requires_deliberate_retry ... ok
+test data::tls_tests::real_tls_rejects_untrusted_local_certificate_without_leaking_key ... ok
+test app::tests::real_adapter_actions_raw_toggle_search_stale_and_prepared_retry ... ok
+test app::tests::discarded_success_and_search_reconcile_from_sdk_committed_state ... ok
+test app::lifecycle_tests::cancelled_open_during_http_has_no_authoritative_registration ... ok
+test data::tests::body_limit_and_deadline ... ok
+
+test result: ok. 15 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.70s
+
+     Running unittests src/main.rs (target/debug/deps/country_lookup_native-cf8867b91cf46bca)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/cache_scope.rs (target/debug/deps/cache_scope-706a6c3893bbff5e)
+
+running 1 test
+test actual_cache_is_key_profile_and_expiry_scoped_and_survives_new_adapter ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/host_seams.rs (target/debug/deps/host_seams-e21b55c46519ab68)
+
+running 2 tests
+test actual_runtime_manifest_validation ... ok
+test actual_registry_before_after_resource_root_and_aliases ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/parity.rs (target/debug/deps/parity-d90c1714d8449eb2)
+
+running 3 tests
+test finite_unicode_and_url_security ... ok
+test trim_filter_last_map_and_complete_keyword_search ... ok
+test actual_source_oracle_full_text_raw_keywords_and_metadata ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
+   Doc-tests country_lookup_native
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

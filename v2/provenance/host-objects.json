@@ -1,0 +1,122 @@
+[
+  {
+    "path": "LICENSE",
+    "gitBlob": "c22db4c5658fa074557976ac119021cdaa567132",
+    "bytes": 10750,
+    "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf"
+  },
+  {
+    "path": "docs/EXTERNAL_RUST_EXTENSIONS.md",
+    "gitBlob": "49bbbb4f0a1e0d2773caa8575d6eec58c477685e",
+    "bytes": 7903,
+    "sha256": "56da4ce632e1362ad56c380fa6d706a1f455ea44b67cd473b0b3eb216a9d5610"
+  },
+  {
+    "path": "pnpm-lock.yaml",
+    "gitBlob": "815ad5c98e74cdc770de9749cf1d38380e09405a",
+    "bytes": 169186,
+    "sha256": "f98edb2075fda3dd40b530bb41a7c007aa06e24748a5603fabe26b468d390d8e"
+  },
+  {
+    "path": "schemas/extension-v3.schema.json",
+    "gitBlob": "d22369213af9f6e7d8e2b40eae9ca5f2091dc742",
+    "bytes": 13094,
+    "sha256": "6f42f0316aa88097703496e828b11afcc7caecf8477fa7502df903c3ad2a8048"
+  },
+  {
+    "path": "src/renderer/ExtensionRuntimeView.tsx",
+    "gitBlob": "e43a39425078b1c14c25981a9bae02a43b5749ac",
+    "bytes": 24466,
+    "sha256": "c8378d1a1cc91cf622f81dc1bd88ed986ea2e9c396f7ff497e649171f573c5e8"
+  },
+  {
+    "path": "src/renderer/extensionImages.ts",
+    "gitBlob": "b257a30af275cf69b445c7fd4a1bab38da215531",
+    "bytes": 2867,
+    "sha256": "053b98b523ed3ae06957d5eb84b0c4243db5ef4725614580e498ead7c53a518a"
+  },
+  {
+    "path": "src/renderer/src/raycast-api/action-runtime-overlay.tsx",
+    "gitBlob": "582bfd477fd5ec8ba8f513e5be17b75efae88c99",
+    "bytes": 2915,
+    "sha256": "3eb4a59db0de59460ea8a2c7f4a1f6ec5b514a512f49352bf373db64ed58d604"
+  },
+  {
+    "path": "src/renderer/src/raycast-api/action-runtime.tsx",
+    "gitBlob": "c18d7349352b64beee19c722e257a0941f2754d7",
+    "bytes": 391,
+    "sha256": "6e7a41e3d1a7ee2028103683f08fb8ed20e4b2e5751e182afe9f8e189522a28b"
+  },
+  {
+    "path": "src/renderer/src/raycast-api/detail-runtime.tsx",
+    "gitBlob": "219517c635d708fef6e50b2a7be05146f75e5ea7",
+    "bytes": 23478,
+    "sha256": "32eecb50891e0f282bd3d78d8a38193ec24540bf70c3fdc8e43a1d368c97d54c"
+  },
+  {
+    "path": "src/renderer/src/raycast-api/index.tsx",
+    "gitBlob": "06172c12681568b3dbbf2bf4ac98f7135490df68",
+    "bytes": 7419,
+    "sha256": "7fc8413a72b92e8f88b0939cd93f91624018fe0765baa1e71b38b86f8cc77a64"
+  },
+  {
+    "path": "src/renderer/src/raycast-api/list-runtime.tsx",
+    "gitBlob": "5466c70489fd9dc2ae73118bc637ef98cf106487",
+    "bytes": 32174,
+    "sha256": "c7e253c34ce6e0a5132cab96bf1f0388393faca79ff57c3fdc7956f377a0ab0f"
+  },
+  {
+    "path": "src/renderer/ui/Markdown.tsx",
+    "gitBlob": "8841268595775dcfe4b739a7d54de601f191f748",
+    "bytes": 7492,
+    "sha256": "d205312b35293a433d5398e4edf1dcc96662cacd34036e8ee3ec503f65eee2de"
+  },
+  {
+    "path": "src/shared/extensionRuntime.ts",
+    "gitBlob": "2c0f347d84f6ca3da42518a6af5650159413f916",
+    "bytes": 4581,
+    "sha256": "47a290032a9967e2dee5142030b4ef8cfc5237a79521aa535f8a12d8c16deda4"
+  },
+  {
+    "path": "src-tauri/src/native_core/extensions/process_host.rs",
+    "gitBlob": "707ee4c60ed2dc02ce016f19afa4f61d8ac0b011",
+    "bytes": 38535,
+    "sha256": "daf45815d76762323c6c1320c88ed24dfe28160a60bb4974b8073e3f17a3b982"
+  },
+  {
+    "path": "src-tauri/src/native_core/extensions/process_install.rs",
+    "gitBlob": "40790a4d63ba7c856c0b15d313536941a2b2bb5f",
+    "bytes": 53814,
+    "sha256": "1fc130d58703f80db0c5255d31a1e31b9f4e1a67876f98f86ceae7ede6363ee7"
+  },
+  {
+    "path": "src-tauri/src/native_core/extensions/registry.rs",
+    "gitBlob": "0ae0827f90fb337eb5fd00e1d596c1452915bc03",
+    "bytes": 67269,
+    "sha256": "05dd5d9c5fafbac3034e9ba5e101e345a5d3bb658a49d22696e59ea924530e66"
+  },
+  {
+    "path": "src-tauri/src/native_core/extensions/v2_runtime.rs",
+    "gitBlob": "3509b25c15cae5dd8562aa2096e97e908db6baa8",
+    "bytes": 472,
+    "sha256": "537aeb67c9a7ad052c348d6c4fe09b19027854d07e912a432d36bc14896fc392"
+  },
+  {
+    "path": "src-tauri/src/native_core/launcher/clipboard.rs",
+    "gitBlob": "b0a3044f5486531fa622c8a2b3380da950cf62a8",
+    "bytes": 33863,
+    "sha256": "8af5b882e06c9025d09a71b46b2f36c3e2a41513cd44fd2d0f945c58c9aa8d7d"
+  },
+  {
+    "path": "src-tauri/src/native_core/platform.rs",
+    "gitBlob": "18f1539aafc664b22dac374e39addfa29548213c",
+    "bytes": 28872,
+    "sha256": "33e6b7ec5b305ee3ffb857985d0483e54891998ff2a51c10f12695b80a1953e6"
+  },
+  {
+    "path": "src-tauri/tauri.conf.json",
+    "gitBlob": "8f5bce831d67b38330d21804f5d1dd36da2116a7",
+    "bytes": 2571,
+    "sha256": "10a3adeef6c86c082caf3889189df970f8d2bd1f9032f4b97ae4a3f02d8a7076"
+  }
+]
