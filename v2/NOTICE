@@ -1,0 +1,33 @@
+Country Lookup native v2 review implementation (2026)
+Own source: almatkai/country-lookup, 3db7a9e69eadc4d0ba53895ef686305329828e27, MIT.
+Original Country Lookup author: pernielsentikaer.
+Contributors: yusifaliyevpro, j3lte, xmok.
+Raycast source/icon: raycast/extensions commit 6734d85992290066fd31a7f5bee3cca3d3545a1a,
+extensions/country-lookup. Copyright (c) 2021 Raycast. Complete MIT grant included.
+The exact original PNG is included unchanged. No Raycast runtime is distributed.
+
+SDK: tezbar-extension-sdk 0.1.1, e955911f0bf5b558f9d3eb5183df0adc95c22af2,
+Copyright 2026 Almat, Apache-2.0. Complete SDK LICENSE and NOTICE included.
+src/store.rs is a modified, bounded adaptation of the pinned SDK's private storage
+transaction design. It uses SDK-granted paths, adds bounded reads, typed validation,
+symlink checks and private permissions; it retains atomic replacement and unknown keys.
+
+Host review source: ea100cee3f69711de12485ba061950c5fc65258f,
+Copyright 2026 Almat, Apache-2.0. Copied only for isolated review tests and proposed
+generic patches. Those test excerpts and proposed patches are modified as labelled.
+Host is not linked or required by this executable. Full host license included in source.
+
+QA-only JavaScript source: @yusifaliyevpro/countries 5.2.1 (Yusif Aliyev, MIT),
+@raycast/utils 2.2.7 (Raycast Technologies Ltd., publisher declares MIT).
+The utils tarball omits a LICENSE file and its gitHead is not public at the
+referenced repository. The authentic declaration/attribution is preserved separately;
+no package-specific license file has been invented. The genuine Raycast extensions
+MIT license is also preserved. None of this JavaScript is linked into the executable.
+
+licenses/ and reports/dependency-grants.json retain genuine complete grant/notice
+files from all Cargo.lock-resolved packages, including platform/dev dependencies
+(a superset of a single target's linked graph). r-efi's AUTHORS file contains its
+complete MIT grant and copyright list; the MIT option is used. The webpki root
+certificate data grant is CDLA-Permissive-2.0. Do not replace these grants with SPDX
+identifiers alone. These notices are attribution, not an assertion of live API,
+platform, GUI, Windows or release verification.

@@ -1,0 +1,653 @@
+{
+  "ok": true,
+  "mode": "view",
+  "title": "Country Lookup",
+  "root": {
+    "type": "List",
+    "props": {
+      "navigationTitle": "Country Lookup",
+      "searchBarPlaceholder": "Search countries by name, capital, language…",
+      "searchText": "",
+      "__hasServerSearch": true,
+      "isShowingDetail": true
+    },
+    "children": [
+      {
+        "type": "List.Item",
+        "props": {
+          "id": "country:0",
+          "title": "Example Å国",
+          "icon": {
+            "source": "https://flagcdn.com/w320/kz.png"
+          },
+          "actionIds": [
+            "1:3:0:toggle",
+            "1:3:0:google_maps",
+            "1:3:0:open_street_maps",
+            "1:3:0:wikipedia",
+            "1:3:0:text",
+            "1:3:0:name",
+            "1:3:0:code",
+            "1:3:0:emoji",
+            "1:3:0:raw",
+            "1:3:0:refresh"
+          ],
+          "keywords": [
+            "Republic of Example",
+            "Exampleland",
+            "Exämple",
+            "EX",
+            " EXA ",
+            "009",
+            "Asia",
+            "Central Asia",
+            "Examplean",
+            "Asia",
+            "Europe",
+            "Capital",
+            "Example language",
+            "Example coin",
+            ".example"
+          ],
+          "detail": {
+            "type": "List.Item.Detail",
+            "props": {
+              "markdown": "# &#127472;&#127487; &#69;&#120;&#97;&#109;&#112;&#108;&#101;&#32;&#197;&#22269;\n\n![flag](https://flagcdn.com/w320/kz.png)\n\n_&#65;&#32;&#102;&#108;&#97;&#103;_",
+              "metadata": {
+                "type": "List.Item.Detail.Metadata",
+                "children": [
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Official Name",
+                      "text": "Republic of Example"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Native Name",
+                      "text": "Example, 例国"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Country Code",
+                      "text": "EX"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Alpha-3 Code",
+                      "text": " EXA "
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Numeric Code",
+                      "text": "009"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "IOC Code",
+                      "text": "EXM"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "FIFA Code",
+                      "text": "EXF"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Separator"
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Capital",
+                      "text": "Capital",
+                      "icon": "Icon.Building"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Region",
+                      "text": "Asia · Central Asia"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Continent",
+                      "text": "Asia, Europe"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Population",
+                      "text": "1,234,567.892",
+                      "icon": "Icon.TwoPeople"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Area",
+                      "text": "16 km²"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Landlocked",
+                      "text": "No"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Inhabitants",
+                      "text": "Examplean"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Units",
+                      "text": "Metric · celsius"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Government",
+                      "text": "Republic"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Separator"
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.TagList",
+                    "props": {
+                      "title": "Languages"
+                    },
+                    "children": [
+                      {
+                        "type": "List.Item.Detail.Metadata.TagList.Item",
+                        "props": {
+                          "text": "Example language"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.TagList",
+                    "props": {
+                      "title": "Currencies"
+                    },
+                    "children": [
+                      {
+                        "type": "List.Item.Detail.Metadata.TagList.Item",
+                        "props": {
+                          "text": "Example coin (¤)"
+                        }
+                      },
+                      {
+                        "type": "List.Item.Detail.Metadata.TagList.Item",
+                        "props": {
+                          "text": ""
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Calling Code",
+                      "text": "+999, +998",
+                      "icon": "Icon.Phone"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Start of Week",
+                      "text": "monday"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Academic Year Start",
+                      "text": "1 September"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Fiscal Year Start",
+                      "text": "January"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Driving Side",
+                      "text": "right"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Vehicle Signs",
+                      "text": "EX"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Number Format",
+                      "text": "1,234,567.89"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Top-Level Domain",
+                      "text": ".example"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Timezones",
+                      "text": "UTC+05:00"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.TagList",
+                    "props": {
+                      "title": "Borders"
+                    },
+                    "children": [
+                      {
+                        "type": "List.Item.Detail.Metadata.TagList.Item",
+                        "props": {
+                          "text": "EXB"
+                        }
+                      },
+                      {
+                        "type": "List.Item.Detail.Metadata.TagList.Item",
+                        "props": {
+                          "text": "MISSING"
+                        }
+                      },
+                      {
+                        "type": "List.Item.Detail.Metadata.TagList.Item",
+                        "props": {
+                          "text": " EXA "
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Separator"
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.TagList",
+                    "props": {
+                      "title": "Memberships"
+                    },
+                    "children": [
+                      {
+                        "type": "List.Item.Detail.Metadata.TagList.Item",
+                        "props": {
+                          "text": "UN"
+                        }
+                      },
+                      {
+                        "type": "List.Item.Detail.Metadata.TagList.Item",
+                        "props": {
+                          "text": "NATO"
+                        }
+                      },
+                      {
+                        "type": "List.Item.Detail.Metadata.TagList.Item",
+                        "props": {
+                          "text": "African Union"
+                        }
+                      },
+                      {
+                        "type": "List.Item.Detail.Metadata.TagList.Item",
+                        "props": {
+                          "text": "Arab League"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Separator"
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Link",
+                    "props": {
+                      "title": "Official Website",
+                      "text": "Open",
+                      "target": "https://www.gov.kz/"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Link",
+                    "props": {
+                      "title": "Wikipedia",
+                      "text": "Open",
+                      "target": "https://en.wikipedia.org/wiki/Kazakhstan"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Link",
+                    "props": {
+                      "title": "Google Maps",
+                      "text": "Open",
+                      "target": "https://maps.google.com/?q=Kazakhstan"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "List.Item",
+        "props": {
+          "id": "country:1",
+          "title": "Unknown",
+          "icon": "Icon.Globe",
+          "actionIds": [
+            "1:3:1:toggle",
+            "1:3:1:text",
+            "1:3:1:name",
+            "1:3:1:raw",
+            "1:3:1:refresh"
+          ],
+          "keywords": [],
+          "detail": {
+            "type": "List.Item.Detail",
+            "props": {
+              "markdown": "#  &#85;&#110;&#107;&#110;&#111;&#119;&#110;",
+              "metadata": {
+                "type": "List.Item.Detail.Metadata",
+                "children": [
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Official Name",
+                      "text": "—"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Native Name",
+                      "text": "—"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Country Code",
+                      "text": "—"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Alpha-3 Code",
+                      "text": "—"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Numeric Code",
+                      "text": "—"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Separator"
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Capital",
+                      "text": "—",
+                      "icon": "Icon.Building"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Region",
+                      "text": "—"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Continent",
+                      "text": "—"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Population",
+                      "text": "—",
+                      "icon": "Icon.TwoPeople"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Area",
+                      "text": "—"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Landlocked",
+                      "text": "—"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Inhabitants",
+                      "text": "—"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Units",
+                      "text": "—"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Government",
+                      "text": "—"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Separator"
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Calling Code",
+                      "text": "—",
+                      "icon": "Icon.Phone"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Start of Week",
+                      "text": "—"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Academic Year Start",
+                      "text": "—"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Fiscal Year Start",
+                      "text": "—"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Driving Side",
+                      "text": "—"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Vehicle Signs",
+                      "text": "—"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Number Format",
+                      "text": "—"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Top-Level Domain",
+                      "text": "—"
+                    }
+                  },
+                  {
+                    "type": "List.Item.Detail.Metadata.Label",
+                    "props": {
+                      "title": "Timezones",
+                      "text": "—"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "actions": [
+    {
+      "id": "1:3:0:toggle",
+      "title": "Toggle Details",
+      "kind": "action"
+    },
+    {
+      "id": "1:3:0:google_maps",
+      "title": "Open in Google Maps",
+      "kind": "action"
+    },
+    {
+      "id": "1:3:0:open_street_maps",
+      "title": "Open in OpenStreetMap",
+      "kind": "action"
+    },
+    {
+      "id": "1:3:0:wikipedia",
+      "title": "Open Wikipedia",
+      "kind": "action"
+    },
+    {
+      "id": "1:3:0:text",
+      "title": "Copy as Text",
+      "kind": "action"
+    },
+    {
+      "id": "1:3:0:name",
+      "title": "Copy Country Name",
+      "kind": "action"
+    },
+    {
+      "id": "1:3:0:code",
+      "title": "Copy Country Code",
+      "kind": "action"
+    },
+    {
+      "id": "1:3:0:emoji",
+      "title": "Copy Flag Emoji",
+      "kind": "action"
+    },
+    {
+      "id": "1:3:0:raw",
+      "title": "Copy Raw JSON",
+      "kind": "action"
+    },
+    {
+      "id": "1:3:0:refresh",
+      "title": "Refresh",
+      "kind": "action"
+    },
+    {
+      "id": "1:3:1:toggle",
+      "title": "Toggle Details",
+      "kind": "action"
+    },
+    {
+      "id": "1:3:1:text",
+      "title": "Copy as Text",
+      "kind": "action"
+    },
+    {
+      "id": "1:3:1:name",
+      "title": "Copy Country Name",
+      "kind": "action"
+    },
+    {
+      "id": "1:3:1:raw",
+      "title": "Copy Raw JSON",
+      "kind": "action"
+    },
+    {
+      "id": "1:3:1:refresh",
+      "title": "Refresh",
+      "kind": "action"
+    },
+    {
+      "id": "1:3:refresh",
+      "title": "Refresh",
+      "kind": "action"
+    }
+  ],
+  "refreshMs": null
+}

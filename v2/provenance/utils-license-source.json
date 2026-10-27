@@ -1,0 +1,22 @@
+{
+  "gitHead": "5a148840bf00a6b6fe4ae782126e110da55ff5ac",
+  "version": "2.2.7",
+  "license": "MIT",
+  "author": {
+    "name": "Raycast Technologies Ltd."
+  },
+  "dist": {
+    "shasum": "7a82d54ef227e2992aa02a66f3a6ea99b37c6a3e",
+    "tarball": "https://registry.npmjs.org/@raycast/utils/-/utils-2.2.7.tgz",
+    "fileCount": 8,
+    "integrity": "sha512-1jV9tKLluP0Av/ICcl/yvVzCj7mY6F3wnKsh8SJpy/Fsqq/LCFXcI6TgMabIJ45AaDVhEV+JH9jS1lJSwBgiMw==",
+    "signatures": [
+      {
+        "sig": "MEQCIHfmSGxDHAYUbm1BDItHyeinYyAXK1BRQw6dGM1QjWbzAiBRnsfTrzsfNpwtteMKEDzdjYjwlX5aMSZmw4I0eQKhSw==",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "unpackedSize": 1122671
+  },
+  "note": "Publisher declares MIT. NPM archive contains no LICENSE; exact gitHead is not publicly available in raycast/utils. No license file has been invented. QA-only source excerpts retain this declaration and attribution; complete genuine Raycast extensions MIT grant is separately included."
+}

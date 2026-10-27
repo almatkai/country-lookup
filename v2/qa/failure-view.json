@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "view",
+  "title": "Country Lookup",
+  "root": {
+    "type": "List",
+    "props": {
+      "navigationTitle": "Country Lookup — Could not load countries. Private storage is corrupt",
+      "searchBarPlaceholder": "Search countries by name, capital, language…",
+      "searchText": "Example language",
+      "__hasServerSearch": true,
+      "isShowingDetail": false
+    },
+    "children": [
+      {
+        "type": "List.EmptyView",
+        "props": {
+          "title": "Could not load countries",
+          "description": "Private storage is corrupt",
+          "actionIds": [
+            "1:27:refresh"
+          ]
+        }
+      }
+    ]
+  },
+  "actions": [
+    {
+      "id": "1:27:refresh",
+      "title": "Retry",
+      "kind": "action"
+    }
+  ],
+  "refreshMs": null
+}

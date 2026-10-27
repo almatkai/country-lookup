@@ -1,0 +1,83 @@
+--- a/src-tauri/src/native_core/extensions/registry.rs
++++ b/src-tauri/src/native_core/extensions/registry.rs
+@@ -16,6 +16,8 @@
+     path: PathBuf,
+     manifest: Value,
+     data_dir: PathBuf,
++    // Modified: exact verified active package root; preferences keep path.
++    resource_root: PathBuf,
+ }
+ 
+ fn slug(id: &str) -> Result<String, String> {
+@@ -73,9 +75,10 @@
+             };
+             let Ok(slug) = slug(name) else { continue };
+             let native = name.starts_with("com.tezbar.native.");
++            let mut resource_root = path.clone();
+             let mut manifest = if native {
+                 match super::process_install::resolve(ctx, name) {
+-                    Ok(package) => package.manifest,
++                    Ok(package) => { resource_root = package.dir; package.manifest },
+                     Err(error) => {
+                         // A damaged canonical directory is NEVER a Raycast package.
+                         let mut value = read_json(&path.join("package.json"))
+@@ -108,6 +111,7 @@
+                 id,
+                 slug,
+                 path,
++                resource_root,
+                 manifest,
+                 data_dir: ctx.paths.data_dir.clone(),
+             });
+@@ -129,14 +133,15 @@
+ 
+ /// Native implementations use the same discovery and platform rules as the launcher.
+ pub(super) fn installed_command(ctx: &CoreContext, id: &str, command: &str) -> Option<Installed> {
+-    let native = if id.starts_with("raycast.") {
+-        let slug = slug(id).ok()?;
+-        let canonical = super::v2_runtime::canonical_id(&slug);
+-        installed(ctx, &canonical).ok()
+-    } else if id.starts_with("com.tezbar.native.") {
++    // Modified: only exact aliases from a verified installed manifest can route natively.
++    let native = if id.starts_with("com.tezbar.native.") {
+         installed(ctx, id).ok()
+     } else {
+-        None
++        collect(ctx).into_iter().find(|entry| {
++            entry.id.starts_with("com.tezbar.native.")
++                && entry.manifest["replaces"].as_array().is_some_and(|aliases|
++                    aliases.iter().any(|alias| alias.as_str() == Some(id)))
++        })
+     };
+     if let Some(extension) = native {
+         let active = extension.manifest["healthError"].is_null()
+@@ -245,8 +250,8 @@
+         return None;
+     }
+     let mut candidates = vec![
+-        extension.path.join(relative),
+-        extension.path.join("assets").join(relative),
++        extension.resource_root.join(relative),
++        extension.resource_root.join("assets").join(relative),
+     ];
+     if extension.id.starts_with("com.tezbar.native.") {
+         if let Some(packages) = extension.path.parent() {
+@@ -309,8 +314,8 @@
+         return None;
+     }
+     let mut candidates = vec![
+-        extension.path.join(relative),
+-        extension.path.join("assets").join(relative),
++        extension.resource_root.join(relative),
++        extension.resource_root.join("assets").join(relative),
+     ];
+     if extension.id.starts_with("com.tezbar.native.") {
+         if let Some(packages) = extension.path.parent() {
+@@ -574,6 +579,7 @@
+     let extension = Installed {
+         id: id.into(),
+         slug: slug(id)?,
++        resource_root: path.clone(),
+         path,
+         manifest: Value::Null,
+         data_dir: ctx.paths.data_dir.clone(),

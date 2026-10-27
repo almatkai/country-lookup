@@ -1,0 +1,12 @@
+/target/
+/dist/
+/qa/v1/
+/qa/node_modules/
+/qa/.npm/
+/qa/scratch/
+/qa/isolated/
+/qa/.cargo/
+*.log
+/qa/disposable-root-node_modules/
+/qa/isolated-final/
+/qa/isolated-review/

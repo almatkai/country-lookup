@@ -1,0 +1,1 @@
+Source oracle passed: 21 cases; locked executable library + source components/hooks/cache; no external producer effects.

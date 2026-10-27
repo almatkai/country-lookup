@@ -40,3 +40,7 @@ This extension is AI-enabled. Mention `@Country Lookup` in Quick AI, AI Chat, or
 
 - Results are cached locally for 4 hours, so repeated browsing and searches don't exhaust your API quota. But you can refresh manually.
 - Data is provided by the [REST Countries](https://restcountries.com) API via the [`@yusifaliyevpro/countries`](https://www.npmjs.com/package/@yusifaliyevpro/countries) SDK.
+
+## Native Rust v2
+
+See [the standalone Rust implementation and review notes](v2/README.md).

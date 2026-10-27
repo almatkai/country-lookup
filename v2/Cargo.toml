@@ -1,0 +1,25 @@
+[package]
+name = "country-lookup-native"
+version = "0.2.0"
+edition = "2021"
+rust-version = "1.85"
+license = "MIT"
+
+[dependencies]
+tezbar-extension-sdk = { git = "https://github.com/almatkai/tezbar-extension-sdk-rust.git", rev = "e955911f0bf5b558f9d3eb5183df0adc95c22af2", version = "=0.1.1" }
+serde_json = { version = "1", features = ["preserve_order", "float_roundtrip"] }
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "sync", "time", "net", "io-util"] }
+reqwest = { version = "=0.12.12", default-features = false, features = ["rustls-tls-webpki-roots", "stream"] }
+sha2 = "0.10"
+ryu-js = "=1.0.2"
+url = "=2.5.4"
+
+tempfile = "3"
+
+[dev-dependencies]
+semver = "1"
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true
